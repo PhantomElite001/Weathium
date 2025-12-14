@@ -1,0 +1,24 @@
+body{
+        background-image: linear-gradient(to bottom,rgb(223,0,73),rgb(39,10,155));
+        /*height: 660px;*/
+        color: green;
+        font-size: 57;
+      }
+      #box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap:12px;
+      }
+      .stat {
+       --opacity: 0.5;
+       background-color: rgb(0 0 0 / var(--opacity));
+        border-radius: 20px;
+        height: 90px;
+        padding-top: 10px;
+        padding-left:9px;
+        font-size: 35px;
+        color: white;
+      }
+      article {
+        border-radius: 30px;
+      }
