@@ -9,7 +9,7 @@ window.onload=function(){
         document.getElementById("hum").textContent+=data.current.humidity + "%";
         document.getElementById("uv").textContent+= data.current.uv;
         document.getElementById("RR").textContent+=data.current.precip_mm +"mm";
-        document.getElementById("AQ").textContent+=data.current.vis_km + "km";
+        document.getElementById("Vis").textContent+=data.current.vis_km + "km";
         document.getElementById("AP").textContent+=data.current.pressure_mb;
         
          })
